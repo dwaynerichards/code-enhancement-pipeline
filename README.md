@@ -21,7 +21,7 @@ Typical savings: **40-60% cheaper** than using Opus for everything.
 Download the latest release and drag the `.plugin` file into Cowork. Or clone and point Cowork at the repo:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/code-enhancement-pipeline.git
+git clone https://github.com/dwaynerichards/code-enhancement-pipeline.git
 ```
 
 Then in Cowork: Settings → Plugins → Add from folder → select the cloned directory.
