@@ -1,0 +1,9 @@
+{
+  "name": "code-enhancement-pipeline",
+  "version": "0.1.0",
+  "description": "Multi-agent code enhancement pipeline: Opus plans, Sonnet executes, Haiku verifies. Orchestrates batched parallel code changes with automatic verification.",
+  "author": {
+    "name": "Dwayne Richards"
+  },
+  "keywords": ["orchestration", "multi-agent", "code-enhancement", "pipeline", "planning"]
+}

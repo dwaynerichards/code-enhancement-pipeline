@@ -1,0 +1,26 @@
+{
+  "SessionStart": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "command",
+          "command": "echo '## Code Enhancement Pipeline\\n\\nAgents available:\\n- @planner (Opus) — analyze codebase, design tasks, write execution guide\\n- @executor (Sonnet) — apply code changes from guide, verify after each task\\n- @verifier (Haiku) — run tests, validate changes, produce reports\\n\\nSkills: plan-execute, task-batch, verify-and-report, execution-handoff, cost-tracker\\n\\nTypical flow: plan → batch → execute → verify\\nOr just say what you want to improve and the agents will coordinate.'",
+          "timeout": 5
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "executor",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "The @executor agent just finished. Check if it reported any failures. If all tasks passed, suggest handing off to @verifier for a final comprehensive check. If any tasks failed, summarize the failures and suggest next steps.",
+          "timeout": 15
+        }
+      ]
+    }
+  ]
+}
