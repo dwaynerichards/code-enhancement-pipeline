@@ -44,7 +44,7 @@ This gives you the 5 skills as `/plan-execute`, `/task-batch`, etc. but without 
 ### Build the .plugin file yourself
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/code-enhancement-pipeline.git
+git clone https://github.com/dwaynerichards/code-enhancement-pipeline.git
 cd code-enhancement-pipeline
 make package
 ```
